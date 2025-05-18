@@ -19,30 +19,23 @@
         "cells": [
           {
             "position": {
-              "x": 500,
-              "y": 410
+              "x": 270,
+              "y": 100
             },
             "size": {
-              "width": 128,
-              "height": 60
+              "width": 340,
+              "height": 150
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "9095777d-dcab-42ab-9ee6-f60f3a5daa22",
             "zIndex": -1,
+            "id": "9095777d-dcab-42ab-9ee6-f60f3a5daa22",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -63,6 +56,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -146,7 +140,6 @@
               ]
             },
             "id": "8dfa0870-d969-4ec6-b7b1-44af51031f91",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Process",
@@ -179,6 +172,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -262,7 +256,6 @@
               ]
             },
             "id": "667eda3b-b868-4613-bb81-500d52ab7f4c",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Actor",
